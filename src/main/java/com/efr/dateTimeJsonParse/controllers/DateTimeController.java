@@ -10,8 +10,6 @@ public class DateTimeController {
 
     private final DateTimeService dateTimeService;
 
-    // Внедрение зависимости через конструктор (Dependency Injection).
-    // Этот подход обеспечивает легкую замену зависимостей (например, для тестов).
     public DateTimeController(DateTimeService dateTimeService) {
         this.dateTimeService = dateTimeService;
     }
